@@ -28,3 +28,23 @@ body{
     position: relative;
     left: -30px;
 }
+
+.image{
+    background-color: dimgray; 
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+    width: 100vw;
+    
+}
+
+img{
+    padding-left: 6rem;
+}
+
+.caption{
+    display: inline-block;
+    margin-left: 2rem;
+    position:absolute;
+    color: white;
+
+}
