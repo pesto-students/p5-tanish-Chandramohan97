@@ -1,1 +1,30 @@
 /* CSS for Exercise 1.2 */
+
+* {
+    font-family: "Lato" , "Sans-serif";
+
+}
+
+body{
+    margin: 0;
+    /* padding: 0; */
+    overflow: hidden;
+}
+
+.side-bar{
+    height: 84.2%;
+    width: 0.2%;
+    position:absolute;
+    /* z-index: 1; */
+    /* top: 0; */
+    /* left: 0; */
+    background-color: lightgray;
+    overflow-x:visible; 
+    padding-top: 20px;
+    margin-top: 0.2rem; 
+}
+
+.side-bar i{
+    position: relative;
+    left: -30px;
+}
