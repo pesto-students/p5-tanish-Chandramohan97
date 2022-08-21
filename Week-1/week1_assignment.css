@@ -73,3 +73,30 @@ div .caption ul{
     padding-top: 7rem;
     padding-left: 0.1rem;
 }
+
+footer{
+    width: 100vw;
+    position: relative;
+    bottom: 35px;
+    height: 120px;
+    background-color: #072c94;  
+}
+
+footer ul li{
+    display: inline;
+}
+
+footer ul{
+    margin-left:40rem;
+    padding-bottom: 1px;
+}
+
+footer i{
+    position: relative;
+    bottom: 45px;
+    
+}
+ul{
+    list-style: none;
+    
+}   
