@@ -1,0 +1,13 @@
+
+Question : Creating a web page the subject is interested in. Following guidelines should be followed : 
+
+1.  The `.html` page and a linked `.css` file applies a consistent color scheme to links and text onyour page.
+2.  A page header with a title and description for the site
+3.  An articles section with three articles, each including a title, summary and a link.
+4.   A page footer containing info about you or the site
+5.  Proper use of the semantic HTML tags we discussed.- Use this website [Lorem Ipsum](http://www.lipsum.com/) to generate random blocks ofcontent to fill your website
+6.  **Commit often (with good meaningful commit messages), and Push to Github regularly.*
+7. Add a form to your site. This form can contain as many fields as you wish to have but makesure it follows proper use of the semantic HTML tags we discussed.  Add validation to thesefields without using any framework or JavaScript
+8. On a larger device we should see a 2 column layout. On a smaller device the right sidecontent should stack below the image.  Add at least three more articles and then convert themto a grid, so that you show 3 articles per row in a box layout( unable to do the second part).
+9. Color the form button with any color of your choice. Using CSS, in :hover state changes thecolor. Again the color is of your choice.
+
