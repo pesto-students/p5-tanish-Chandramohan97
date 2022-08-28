@@ -83,3 +83,11 @@ footer{
     bottom: 112%;    
     margin-left: 10px;
 }
+/* Failed media query for Iphone SE */
+
+@media only screen and (max-device-width: 480px){
+    .child2{
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
