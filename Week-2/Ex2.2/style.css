@@ -6,3 +6,34 @@
     margin-left: 600px;
     margin-top: 200px;
 }
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: -200px;
+}
