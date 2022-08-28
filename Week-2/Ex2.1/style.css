@@ -19,7 +19,7 @@ img{
 
 .child1 {
     width: 50%;
-    height: 3vh;
+    height: 30vh;
     text-align: left;
     color: black;
     margin-left: 10%;
@@ -27,7 +27,7 @@ img{
 
 .child2 {
     width: 50%;
-    height: 70vh;
+    height: 50vh;
     margin-top: 2%;
 }
 
@@ -58,4 +58,28 @@ button{
 
 button:hover{
     background-color: blue;
+}
+
+footer{
+    background-color:slategrey;
+    /* width: 100vw; */
+    height: 20vh;
+    
+    /* padding-top: 10px; */
+}
+
+#firstList{
+    position: relative;
+    left:20%;
+    bottom:26%;
+    list-style: none;
+    margin-left: 50%;
+}
+
+#secondList{
+    position: relative;
+    list-style: none;
+    left : 50%;
+    bottom: 112%;    
+    margin-left: 10px;
 }
