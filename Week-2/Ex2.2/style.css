@@ -1,0 +1,8 @@
+/* Describing the property of the main div element */
+
+.main{
+    width: 200px;
+    height: 200px;  
+    margin-left: 600px;
+    margin-top: 200px;
+}
