@@ -5,7 +5,8 @@ function createIncrement(){
         count++;
     }
     
-    let message = 'Count is ${count}'; // message = Count is 0 
+    // using ticks(``) instead of single quotes
+    let message = `Count is ${count}`; // message = Count is 0 
     function log(){
         console.log(message);
     }
