@@ -1,0 +1,18 @@
+Output : 
+The value displayed on the screen will be :
+
+Count is 0
+
+Reasoning : 
+
+The function createIncrement() returns reference to two functions - which is increment() and log(). Both of them are nested in the the main function.
+
+The return value is stored in an array structure - which stores a reference to the function increment and log.
+
+Once the createIncrement is invoked , count is set to  0 and message is set to Count is 0(i.e. count=0 and message = Count is 0). 
+
+Now the function call is made to increment thrice - which updates the value of count to 3. This is where the concept of closures comes into picture. The increment function long after the parent function(i.e. createIncrement) is invoked and finished is still able to access the parent function variables - which in this case is the count and message. 
+
+Similar is the case with log - it's ability to access the parent function variable. 
+
+Now when the log is called - it prints the value stored by the variable message which is : Count is 0.
