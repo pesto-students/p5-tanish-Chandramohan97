@@ -5,7 +5,7 @@ function createIncrement(){
         count++;
     }
     
-    let message = 'Count is ${Count}';
+    let message = 'Count is ${count}'; // message = Count is 0 
     function log(){
         console.log(message);
     }
