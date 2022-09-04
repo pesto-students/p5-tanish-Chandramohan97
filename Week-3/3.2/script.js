@@ -14,7 +14,7 @@ let name= {
 
  function printDetails (age, city) {
         console.log( this.firstName + " " + this.lastName + " who is " + age + " and from " + city);
-    }
+    }  // Removing the method from the name object and declaring it outside as a function since we're going to re-use this function multiple time
 
 let name2={
     firstName : 'Kavya',
