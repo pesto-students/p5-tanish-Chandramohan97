@@ -12,9 +12,12 @@ let name= {
     
 };
 
+// Removing the method from the name object and declaring it outside as a function since we're going to re-use this function multiple times
+
  function printDetails (age, city) {
         console.log( this.firstName + " " + this.lastName + " who is " + age + " and from " + city);
-    }  // Removing the method from the name object and declaring it outside as a function since we're going to re-use this function multiple time
+    }  
+
 
 let name2={
     firstName : 'Kavya',
@@ -23,6 +26,7 @@ let name2={
 
 
 printDetails.call(name2, "24 yrs old" , "Kanpur"); // In call method - the arguements are provided one by one.
+
 printDetails.apply(name2, ["24 yrs old" , "Kanpur"]); // In Apply method - the arguements are provided in arrays. Rest - no such differences between call and apply. 
 
 let printDetailsBind = printDetails.bind(name2,"24 yrs old" , "Kanpur"); // In bind method - a function is returned , which needs to be invoked. The bind function returns a permanent copy and cannot be altered.
