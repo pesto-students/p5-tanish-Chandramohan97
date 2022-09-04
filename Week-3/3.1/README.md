@@ -10,10 +10,11 @@
 2. Memoization working( https://pestotech.teachable.com/courses/1852624/lectures/42100507)
 ## Question
 
+![3 1 ss](https://user-images.githubusercontent.com/102906185/188310879-5f1d2406-7c84-40df-8c57-35f65d9f7c71.png)
 
 ## Tech Stack
 
-**Client:** HTML , JavaScript.
+**Client:** JavaScript.
 
 
 
