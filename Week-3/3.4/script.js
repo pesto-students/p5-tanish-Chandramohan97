@@ -2,7 +2,7 @@
 
 function createStack() {
     items = [];                      // declaring items in the function with let keyword so it's not accessible 
-    return {                         // outside of the createStack function
+    return {                         // outside of the createStack function but is accessible by the method - closures
       push(item) {
         // var items = [];
         items.push(item);
