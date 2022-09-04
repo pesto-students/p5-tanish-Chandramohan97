@@ -25,5 +25,9 @@ let name2={
 printDetails.call(name2, "24 yrs old" , "Kanpur"); // In call method - the arguements are provided one by one.
 printDetails.apply(name2, ["24 yrs old" , "Kanpur"]); // In Apply method - the arguements are provided in arrays. Rest - no such differences between call and apply. 
 
+let printDetailsBind = printDetails.bind(name2,"24 yrs old" , "Kanpur"); // In bind method - a function is returned , which needs to be invoked. The bind function returns a permanent copy and cannot be altered.
+
+printDetailsBind();
+
 
 
