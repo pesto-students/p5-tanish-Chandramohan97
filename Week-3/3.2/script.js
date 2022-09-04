@@ -6,14 +6,21 @@
 
 // Code Below -
 
-let name = {
+let name= {
     firstName: 'Chandra',
-    lastName : 'Mohan',   
+    lastName : 'Mohan', 
     
-    printFullName : function(){
-        console.log(this.firstName + " " + this.lastName);
-    },
+};
+
+ function printDetails (age, city) {
+        console.log( this.firstName + " " + this.lastName + " who is " + age + " and from " + city);
+    }
+
+let name2={
+    firstName : 'Kavya',
+    lastName : 'Srivastava',
 };
 
 
+printDetails.call(name2, "24 yrs old" , "Kanpur"); // In call method - the arguements are provided one by one.
 
