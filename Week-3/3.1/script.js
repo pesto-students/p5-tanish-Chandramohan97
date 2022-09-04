@@ -13,7 +13,7 @@ add = (...args) => {                              // Taking in unspecified numbe
     return function(...args) {
     
     // Using the map function to convert each element of the ...args array to String and concatenating thereafter using the join('') to create a singular element. Using this singular element as an array element afterwards and storing that in the cache variable.
-    
+
     let cacheKey = args.map(n => n.toString() + '+').join('');
     
     if (cacheKey in cache) {
@@ -30,3 +30,8 @@ add = (...args) => {                              // Taking in unspecified numbe
     }
   }
   
+let memoizeAdd = memoize(add);
+console.log(memoizeAdd(8, 10)); 
+console.log(memoizeAdd(8, 10));
+console.log(memoizeAdd(5, 15));
+console.log(memoizeAdd(5, 15));
