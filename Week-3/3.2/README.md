@@ -1,6 +1,7 @@
 
 # Working of Bind, call and apply Function in Javascript
 1. Create 3 simple functions where call, bind and apply are used.
+2. Difference between the above 3 mode. 
 
 ## Acknowledgements
 1. Bind - https://pestotech.teachable.com/courses/plus-program-content121/lectures/42100510.
