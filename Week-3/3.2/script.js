@@ -23,4 +23,7 @@ let name2={
 
 
 printDetails.call(name2, "24 yrs old" , "Kanpur"); // In call method - the arguements are provided one by one.
+printDetails.apply(name2, ["24 yrs old" , "Kanpur"]); // In Apply method - the arguements are provided in arrays. Rest - no such differences between call and apply. 
+
+
 
