@@ -6,6 +6,14 @@
 
 // Code Below -
 
+let name = {
+    firstName: 'Chandra',
+    lastName : 'Mohan',   
+    
+    printFullName : function(){
+        console.log(this.firstName + " " + this.lastName);
+    },
+};
 
 
 
