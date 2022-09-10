@@ -1,6 +1,6 @@
 
-# Implementing Fibonacci Series with Fibonacci.
-1. Implementing the Fibonacci series with Iterators. 
+# Implementing Fibonacci Series with Iterators.
+1. Implementing the Fibonacci series with custom made Iterators. 
 
 ## Question
 
