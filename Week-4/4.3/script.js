@@ -28,3 +28,7 @@ let Fib = {
         };
     }
 };
+
+for( let element of Fib){
+    console.log(element);
+}
