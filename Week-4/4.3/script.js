@@ -13,8 +13,18 @@ let Fib = {
 
         return{
             next : function(){
+                if( i <=n ){
+                    term3 = term1+term2;
+                    term1 = term2; 
+                    term2 = term3;
+                    i = i+1; 
+                    return {value : term3 , done : false};
+                }
+                else{ 
+                    return { done : true};
+                }
 
             }
-        }
+        };
     }
-}
+};
