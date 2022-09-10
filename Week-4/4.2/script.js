@@ -1,0 +1,1 @@
+// Showcasing Inheritance and Prototype in Javascript with usage of classes( The ES5 way)
