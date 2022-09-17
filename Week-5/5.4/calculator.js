@@ -13,4 +13,4 @@ let mathsOperations = {
 
 };
 
-module.exports = mathsOperations;
+module.exports = mathsOperations;  //making the mathsOperations object exportable so it could be imported to different module
