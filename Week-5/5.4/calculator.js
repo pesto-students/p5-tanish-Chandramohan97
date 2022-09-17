@@ -1,7 +1,7 @@
 let mathsOperations = {
-    sum : function(a,b){
-        return a+b;
-    },
+    sum : function(a,b){     // GIVEN when the user invoke sum function
+        return a+b;          // WHEN he passes 2 numeric arguments
+    },                       // THEN THE TEST SHOULD PASS 
     
     diff : function(a,b){
         return a-b;
