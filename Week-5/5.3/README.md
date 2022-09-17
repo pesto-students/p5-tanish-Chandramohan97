@@ -13,10 +13,9 @@
 
 
 ## Acknowledgement
-<<<<<<< HEAD
-=======
+
 1. Set and Set Api's (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set).
->>>>>>> edbaf033fbcf680d9bfd7bc762c03573f5b25455
+
 
 ## Tech Stack
 
