@@ -1,8 +1,8 @@
 
 function doTask1(n) {
-    console.log('Task 1 computes square of a number');
-    return n * n;
-  }
+  console.log('Task 1 computes square of a number');  
+  return n*n;    
+}
   
   function doTask2(n) {
     console.log('Task 2 computes cube of a number');
@@ -15,16 +15,16 @@ function doTask1(n) {
   }
   
   async function Async1() {
-  
+    let param1 = 'Hello';   // Parameter for doTask1 //
     console.log('Executing using Async await');
-    // try catch block for doTask1//
-    try {
-      promise1 = new Promise((resolve, reject) => {
+    promise1 = new Promise((resolve, reject) => {
+      if( Number(param1)){
         resolve(doTask1(10));
+      }
+      else{
+        reject( new Error("Wrong Input"));
+      }
       });
-    } catch (err) {
-      console.log('Wrong input')
-    }
   
     let response1 = await promise1;
     console.log(response1);
