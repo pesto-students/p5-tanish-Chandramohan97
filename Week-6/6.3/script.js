@@ -17,3 +17,6 @@ for (let i = arr.length - 1; i > 0; i--) {
 }
 
 console.log(arr);
+
+// Time Complexity = O(n) - as the for loop runs twice for Nth time i.e. N+N = 2N ~ N = O(N)
+// Space complexity = 1;
