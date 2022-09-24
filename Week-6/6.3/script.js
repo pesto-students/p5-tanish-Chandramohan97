@@ -1,5 +1,5 @@
 arr = [2,2,2,2,2,2,0,1,2,1,0,1,2]
-let ctr0 = 0, ctr1 = 0 , ctr2 = 0;
+let ctr0 = 0, ctr1 = 0 , ctr2 = 0;  // ctr0 - counter for 0's , ctr1 - counter for 1's and ctr2 - counter for 2's
 
 for (let i = 0; i < arr.length - 1; i++) {
   if( arr[i] == 0){ ctr0 ++;}
