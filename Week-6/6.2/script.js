@@ -40,3 +40,6 @@ while (Top <= down && left <= right) {
 
   dir = (dir + 1) % 4;
 }
+
+// Space Complexity - O(1) as no new array was introduced for the operation. 
+// The inner for loop't time complexity will be dependent on both the columns and rows i.e. Time Complexity = O(M) + O(N) ~ O(MN)
