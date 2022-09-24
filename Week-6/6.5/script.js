@@ -13,9 +13,10 @@ function returnTarget(arr, target) {
   
     let start = 0, end = arr.length - 1, ctr = 0;
     while (start < end) {
-      if (Math.abs(arr[start] - arr[end]) == target) { return 1; }
+      if (Math.abs(arr[start] - arr[end]) == target) { return ctr++; }
       else if ( Math.abs(arr[start] - arr[end]) > target) { end -= 1; }
       else { start += 1; }
     }
+    return ctr;
   }
   console.log(returnTarget(arr, 78));
