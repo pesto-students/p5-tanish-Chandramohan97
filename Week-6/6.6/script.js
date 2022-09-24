@@ -25,3 +25,6 @@ function targetSum( arr , target){
 
 targetSum([-1,2,1,4], 1);
 
+// Space Complexity is O(1) as the code doesn't use new array for the operation.
+// Time Complexity is O(N^3) as the code uses nested loops thrice.
+
