@@ -8,8 +8,7 @@
 
 ## Answer 
 
-![image](https://user-images.githubusercontent.com/102906185/192040262-f27b0fcf-c1ad-46b2-b219-881c21b8866f.png)
-
+![image](https://user-images.githubusercontent.com/102906185/192097288-3c47d6ce-9b33-4534-925a-e29343a0f130.png)
 
 ## Tech Stack
 
