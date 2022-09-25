@@ -1,0 +1,102 @@
+/* CSS for Exercise 1.2 */
+
+* {
+    font-family: "Lato" , "Sans-serif";
+
+}
+
+body{
+    margin: 0;
+    /* padding: 0; */
+    overflow: hidden;
+}
+
+.side-bar{
+    height: 84.2%;
+    width: 0.2%;
+    position:absolute;
+    /* z-index: 1; */
+    /* top: 0; */
+    /* left: 0; */
+    background-color: lightgray;
+    overflow-x:visible; 
+    padding-top: 20px;
+    margin-top: 0.2rem; 
+}
+
+.side-bar i{
+    position: relative;
+    left: -30px;
+}
+
+.image{
+    background-color: dimgray; 
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+    width: 100vw;
+    
+}
+
+img{
+    padding-left: 6rem;
+}
+
+.caption{
+    display: inline-block;
+    margin-left: 2rem;
+    position:absolute;
+    color: white;
+
+}
+
+table{
+    width: 99%;
+    margin-top: 1rem; 
+    margin-bottom: 10rem; 
+    margin-left: 1rem; 
+    border-collapse: collapse;
+    
+}
+
+table tr{
+    padding-left: 2 rem;
+   
+}
+
+.link{
+    text-align: right;
+    padding-right: 20rem;
+}
+
+div .caption ul{
+    text-align: left;
+    padding-top: 7rem;
+    padding-left: 0.1rem;
+}
+
+footer{
+    width: 100vw;
+    position: relative;
+    bottom: 35px;
+    height: 120px;
+    background-color: #072c94;  
+}
+
+footer ul li{
+    display: inline;
+}
+
+footer ul{
+    margin-left:40rem;
+    padding-bottom: 1px;
+}
+
+footer i{
+    position: relative;
+    bottom: 45px;
+    
+}
+ul{
+    list-style: none;
+    
+}   
