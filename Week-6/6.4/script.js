@@ -31,3 +31,6 @@ if (max - min > 0 && min_index < max_index) {
 else {
   console.log('Profit is 0')
 }
+
+// Time Complexity - O(N) + O(N) = O(2N) ~ O(N). First O(N) for the first loop and second O(N) for the second for loop.
+// Space Complexity - O(1) as no new array was defined during the operation.
