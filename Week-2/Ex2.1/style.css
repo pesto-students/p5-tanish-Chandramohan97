@@ -1,0 +1,93 @@
+/* Stylesheet */
+
+body{
+    /* To stop the overflow of the content on to the X-axis */
+    overflow-x: hidden;   
+    background-color:aliceblue;
+}
+
+img{   
+    height: 30vh;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.Parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.child1 {
+    width: 50%;
+    height: 30vh;
+    text-align: left;
+    color: black;
+    margin-left: 10%;
+}
+
+.child2 {
+    width: 50%;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+div p{
+    width: 70%;
+}
+
+.Subscribe{
+    display: flex;
+    flex-direction: column;        
+}
+
+input{
+    width: 100px;
+}
+
+button{
+    margin-top:10px;
+    margin-bottom: 10px; 
+    margin-left: 90px ;
+    background-color: red;
+    color: white;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+footer{
+    background-color:slategrey;
+    /* width: 100vw; */
+    height: 20vh;
+    
+    /* padding-top: 10px; */
+}
+
+#firstList{
+    position: relative;
+    left:20%;
+    bottom:26%;
+    list-style: none;
+    margin-left: 50%;
+}
+
+#secondList{
+    position: relative;
+    list-style: none;
+    left : 50%;
+    bottom: 112%;    
+    margin-left: 10px;
+}
+/* Failed media query for Iphone SE */
+
+@media only screen and (max-device-width: 480px){
+    .child2{
+        flex-direction: column;
+        align-items: baseline;
+    }
+}

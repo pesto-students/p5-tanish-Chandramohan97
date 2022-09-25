@@ -1,0 +1,70 @@
+/* Describing the property of the main div element */
+
+.main{
+    width: 200px;
+    height: 200px;  
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 1s;
+    transition-timing-function: linear;
+}
+/* Effect on .red element when the mouse is hovering over .main element */
+.main:hover .red{                           
+    transform : translate(-100px) rotate(90deg);
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.main:hover .yellow{
+    transform: translate(100px) rotate(90deg);
+    
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+}
+
+.main:hover .green{
+    transform: translate(100px) rotate(90deg);
+} 
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: -200px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.main:hover .blue{
+    transform : translate(-100px) rotate(90deg);
+} 
+
+p{
+    position: absolute;
+    left: 700px;
+    top: 280px;
+    font-size: xx-large;
+}
