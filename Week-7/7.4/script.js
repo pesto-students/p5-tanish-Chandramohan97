@@ -43,3 +43,9 @@ function ParenthesisChecker(exp){
     if(stack.length() == 0 ) return true ; 
     else{ return false;}
 }
+
+console.log(ParenthesisChecker('[()]{}{()()}')); // true if the string passed is balanced. False if it's unbalanced.
+
+
+// Time Complexity - O(N) - as the for loop only runs throught the length of the expression. 
+// Space Complexity - O(1) in best case scenario if the stack is emptied. O(N) if no element are popped out
