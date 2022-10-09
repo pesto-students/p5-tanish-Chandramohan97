@@ -40,5 +40,31 @@ class SingleLinkedList{
         console.log(array.join('-->'))
     }   
  
+    reverse(){
+        let curr = this.head; 
+        let prev = null , next = null ; 
+        while( curr !== null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        
+        const array = [];
+        while(prev != null){
+            array.push(prev.data);
+            prev = prev.next;
+        }
+        array.push('null');
+        console.log(array.join('-->'))
+    }
+ }
 
-}
+ let l1 = new SingleLinkedList(10);
+// l1.printList();
+l1.append(20);
+l1.append(30);
+l1.append(40);
+console.log('Before Reversal')
+l1.printList();
+console.log('After Reversal')
