@@ -1,13 +1,15 @@
 
-# Implementing Time and Space Complexity for 7.4
+# Implementing Time and Space Complexity for 7.1
 1. Implenting Javascript code for Reversing Linked List.
 
 
 ## Question
-![image](https://user-images.githubusercontent.com/102906185/194742957-3ba1a71f-c8d7-400b-a6e3-419fd0040d8e.png)
+![image](https://user-images.githubusercontent.com/102906185/194754255-36b71785-37c9-44d8-976a-2987242b572f.png)
+
 
 ## Answer 
-![image](https://user-images.githubusercontent.com/102906185/194742998-55a0f0ef-0ad5-4409-ad70-7ab02f87f94c.png)
+![image](https://user-images.githubusercontent.com/102906185/194754274-25767cd0-d9f6-4bca-9518-4b6a686a0165.png)
+
 
 
 ## Tech Stack
