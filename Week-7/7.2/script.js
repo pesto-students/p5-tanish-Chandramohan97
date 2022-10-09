@@ -53,3 +53,17 @@ class SingleLinkedList{
         console.log(arr.join('-->'));
 }
 }
+
+let l1 = new SingleLinkedList(1);
+l1.append(2)
+l1.append(3)
+l1.append(4)
+l1.append(5)
+l1.append(6)
+l1.append(7)
+l1.append(8)
+
+l1.shiftElement(4);
+
+//Time Complexity - O(k) as the iteration depends on the kth element. 
+//Space Complexity - O(1) - no new linked list was created.
