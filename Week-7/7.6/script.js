@@ -49,3 +49,6 @@ deQueue();
 deQueue();
 deQueue();
 deQueue();
+
+// Time Complexity : O(N) as the loop runs through once for array's length.
+// Space Complexity : O(1) as there's no new stack or array is introduced.
