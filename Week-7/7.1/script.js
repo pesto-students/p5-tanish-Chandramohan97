@@ -15,6 +15,7 @@ class SingleLinkedList{
 
     append(data){
         
+        let current;
         let node = new Node(data);
         if(this.head == null) this.head = node;
         else{
