@@ -68,3 +68,8 @@ l1.append(40);
 console.log('Before Reversal')
 l1.printList();
 console.log('After Reversal')
+
+
+// Time Complexity - O(2N) = O(N). First O(N) for the loop which involves reversing and the second O(N) for printing
+// which traverses through the linked list. 
+// Space Complexity - O(1) as no new linked list was created.
