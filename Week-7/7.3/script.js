@@ -54,3 +54,7 @@ l1.append(2);
 l1.append(3);
 l1.append(4);
 console.log(l1.createLoop());
+
+// Time Complexity - O(N) - as the iteration time depends on when the slow node meets the fast node. Which directly 
+// depends on the number of nodes. 
+// Space Complexity - O(1) - as no new linked list was declared.
