@@ -44,3 +44,7 @@ function lastGreater(arr){
 }
 
 lastGreater([1,3,2,4]);
+
+//Space Complexity - O(N) - as a new stack had to be processed for the operation. 
+//Time Complexity - O(N*2) - as the there's a nested loop within for loop. IN the worst case scenario - the nested
+// while loop will run for N number of times. Hence time complexity = O(N*2)
