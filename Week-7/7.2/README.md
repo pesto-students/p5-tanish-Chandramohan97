@@ -4,9 +4,11 @@
 
 
 ## Question
+![image](https://user-images.githubusercontent.com/102906185/194771239-245f9072-7b3d-4d0d-a45a-c8076f0c7029.png)
 
 
 ## Answer 
+![image](https://user-images.githubusercontent.com/102906185/194771255-88728750-9e9f-4ad9-b683-d3211e98dfab.png)
 
 
 ## Acknowledgement 
