@@ -30,3 +30,6 @@ root.right = new Node(20);
 root.left.left = new Node(15);
 root.left.right = new Node(7);
 levelOrder(root);
+
+// Time Complexity - O(N) - as the while loop runs once to traverse breadth wise. 
+// Space Complexity - O(n) - as the queue array is created of N length i.e. number of nodes in the Binary Tree.
