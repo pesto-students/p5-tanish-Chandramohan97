@@ -29,4 +29,10 @@ function maxDepth(root){
     else console.log(`Maximum depth of the Binary tree is ${rctr}`)
 }
 
+root = new Node(1);
+root.left = new Node(2);
+root.right = new Node(3);
+root.right.right= new Node(4);
+maxDepth(root);
+
 
