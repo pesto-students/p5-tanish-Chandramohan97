@@ -24,3 +24,6 @@ function pathCheck(edges, source , destination){
 edges = [[0,1],[0,2],[3,5],[5,4],[4,3]]
 let source = 0 , destination = 5;
 console.log(pathCheck(edges,source,destination));
+
+// Time Complexity - O(N*N) - as the program traverses through twice. 
+// Space Complexity - O(1) - as no new Graph of size N introduced.
