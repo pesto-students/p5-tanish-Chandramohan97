@@ -1,4 +1,4 @@
-// JS code to find out the maximum Binary Tree depth
+// JS code to implement 8.1 
 
 class Node{
     constructor(data){
@@ -8,31 +8,24 @@ class Node{
     }
 }
 
-function maxDepth(root){
-    let queue = [];
-    let lctr = 0 , rctr = 0;
-    queue.push(root);
-    
-    while(queue.length !== 0){
-        let node = queue.shift();
-        if(node.left){
-          queue.push(node.left);
-          lctr += 1;
-        }
-        if(node.right){
-            queue.push(node.right)
-            rctr += 1;
-        }
-            
+function maxDepth(node){
+
+    if(node.data == null){
+        return 0;
     }
-    if(lctr >= rctr) console.log(`Maximum depth of the Binary tree is ${lctr}`)
-    else console.log(`Maximum depth of the Binary tree is ${rctr}`)
+
+    else{
+
+        let lDepth = maxDepth(node.left);
+        let rDepth = maxDepth(node.right);
+
+        if( lDepth >= rDepth) {return lDepth+1;}
+        else return  rDepth+1;
+    }
+
 }
 
-root = new Node(1);
-root.left = new Node(2);
-root.right = new Node(3);
-root.right.right= new Node(4);
-maxDepth(root);
-
-
+let root = new Node(null);
+// root.left = new Node(2);
+// root.right = new Node(3);
+console.log(maxDepth(root));
