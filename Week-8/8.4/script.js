@@ -1,29 +1,37 @@
-// JS Code to find if path exists in Graph.
+// JS Code for 8.4
 
-function pathCheck(edges, source , destination){
+function validPath(edges, source ,destination){
+   
 
-    let ctr; 
-    for( let i = 0 ; i < edges.length; i++){
-        ctr = 0;
-        for( let j = 0 ; j < edges[i].length ; j++){
-            if( edges[i][j] == source || edges[i][j] == destination){
-                ctr++;
+    let adjList = {} ;
+    let  visited =[];
+    
+    //Creating an adjacencyList
+    for( edge of edges){
+        adjList[edge[0]] ? adjList[edge[0]].push(edge[1]) : adjList[edge[0]] = [edge[1]];
+        
+        adjList[edge[1]] ? adjList[edge[1]].push(edge[0]) : adjList[edge[1]] = [edge[0]];
+    }
+    //DFS traversal method 
+    
+    const stack = [source];
+    visited[source] = true; 
+    
+    while(stack.length){
+        const current = stack.pop();
+        if(current == destination) return true;
+        
+        for( let neighbour of adjList[current]){
+            if( !visited[neighbour]){
+                stack.push(neighbour);
+                visited[neighbour] = true;
             }
         }
-
-        if(ctr == 2){
-            break;
-        }
+        
     }
-
-    if( ctr == 2) return `Path found between ${source} & ${destination}`;
-    else return `No Path found between ${source} & ${destination}`
+    return false;
 }
 
-// edges = [ [0,1] , [1,2] , [2,0]]
-edges = [[0,1],[0,2],[3,5],[5,4],[4,3]]
-let source = 0 , destination = 5;
-console.log(pathCheck(edges,source,destination));
-
-// Time Complexity - O(N*N) - as the program traverses through twice. 
-// Space Complexity - O(1) - as no new Graph of size N introduced.
+source = 0 , destination = 5; 
+edges = [ [0,1] , [0,2] , [3,5] , [5,4] , [4,3] ]
+console.log(validPath(edges, source,destination));
