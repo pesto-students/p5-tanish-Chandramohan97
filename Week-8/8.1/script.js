@@ -29,3 +29,8 @@ let root = new Node(null);
 // root.left = new Node(2);
 // root.right = new Node(3);
 console.log(maxDepth(root));
+
+
+// Time Complexity - O(N*N) - in the worst case scenario where the left and ride side of the Binary Tree are equal,
+// then the Time Complexity would amount to O(N*N)
+// Space Complexity - O(1) as now new Tree was created to compute maximum depth of the Binary Tree.
