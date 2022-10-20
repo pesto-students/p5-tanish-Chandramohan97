@@ -10,7 +10,7 @@ class Node{
 
 function maxDepth(node){
 
-    if(node.data == null){
+    if(node == null){
         return 0;
     }
 
@@ -19,16 +19,18 @@ function maxDepth(node){
         let lDepth = maxDepth(node.left);
         let rDepth = maxDepth(node.right);
 
-        if( lDepth >= rDepth) {return lDepth+1;}
-        else return  rDepth+1;
+        if( lDepth >= rDepth) {return lDepth + 1;}
+        else return  rDepth + 1;
     }
 
 }
 
-let root = new Node(null);
-// root.left = new Node(2);
-// root.right = new Node(3);
-console.log(maxDepth(root));
+let root = new Node(1);
+root.left = new Node(2);
+root.right = new Node(3);
+root.left.left = new Node(4);
+root.left.rigth = new Node(5);
+console.log(maxDepth(root) - 1);    // Subtracting 1 from the result to get the exact maximum depth of the Binary
 
 
 // Time Complexity - O(N*N) - in the worst case scenario where the left and ride side of the Binary Tree are equal,
