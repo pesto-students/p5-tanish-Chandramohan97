@@ -8,8 +8,10 @@ destination in a graph.
 
 ## Answer 
 
-![image](https://user-images.githubusercontent.com/102906185/196756394-d60b66cd-908a-4327-93a2-14ff67552a80.png)
+![image](https://user-images.githubusercontent.com/102906185/196864864-dcabf646-bba1-4c60-9cb4-0d7711ba6a67.png)
 
+## Acknowledgement 
+1. Pesto's teachable content on Graphs.
 
 **Client:** JavaScript.
 
