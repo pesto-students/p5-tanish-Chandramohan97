@@ -35,3 +35,6 @@ function validPath(edges, source ,destination){
 source = 0 , destination = 5; 
 edges = [ [0,1] , [0,2] , [3,5] , [5,4] , [4,3] ]
 console.log(validPath(edges, source,destination));
+
+// Time Complexity - O(E+V) - where E is the edges and V is the vertices. Adjacency list is created - which amounts for the mentioned time complexity. 
+// Space Complexity - O(V) - as the stack created can only have V(vertices) number of elements. 
