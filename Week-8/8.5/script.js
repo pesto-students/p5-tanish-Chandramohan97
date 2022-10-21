@@ -31,3 +31,8 @@ function findJudge(N,trust){
 trust = [[1,3], [2,3]]
 // console.log(findJudge([1,3],[2,3],[3,1]));
 console.log(findJudge(3,trust));   // N = Number of people.
+
+//Time Complexity - O(N). The program traverses through the array's length thrice separately which makes the time 
+// complexity O(3N) ~ O(3N)
+
+// Space Complexity - O(N) for the two  object created i.e. likesList and beingLikedList;
