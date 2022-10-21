@@ -1,5 +1,5 @@
 
-# Implementing Time and Space Complexity for 8.1
+# Implementing Time and Space Complexity for 8.6
 1. Implementing JS code to find all paths from Source to Target.
 
 ## Question
