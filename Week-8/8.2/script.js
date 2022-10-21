@@ -5,6 +5,7 @@ class Tree{
         this.right = null;
     }
 }
+
 function isValidBST(node, min, max) {
   if (node === null) {
     return true;
@@ -33,3 +34,6 @@ root.left.left = new Tree(1);
 root.left.right = new Tree(3)
 
 console.log("BST is", isValidBST(root, Number.MIN_VALUE, Number.MAX_VALUE));
+
+// Time Complexity - O(N) - as the program traverses through all the nodes. 
+// Space Complexity - O(1) - as no new stack was created.
