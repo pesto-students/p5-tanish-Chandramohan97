@@ -16,10 +16,10 @@ function ToDoForm(){
       value : list
     };
 
-    setItems( items => [...items,item]);
-    console.log(items);
+    setItems( items => [...items,item]); // Adding list to the items array.
+    // console.log(items); For testing.
 
-    setList("");
+    setList("");  // resetting the value of list to 
   }
   return (
     // replacing form with <div> container as the console.log would disappear immediately post submit.
@@ -30,7 +30,13 @@ function ToDoForm(){
         onChange ={e => setList(e.target.value)}
         /> 
         <button onClick={addItem}> Add </button>
-      </div>
+    <ul>
+      {items.map(item => {return(
+        <li key ={item.id} > {item.value} </li>
+      )})}
+    </ul>
+
+    </div>
   )
 }
 
