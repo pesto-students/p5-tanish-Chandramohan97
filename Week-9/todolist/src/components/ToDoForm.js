@@ -7,6 +7,10 @@ function ToDoForm(){
   
   function addItem(){
     
+    if( !list){
+      alert('Enter the value')
+      return ;
+    }
     const item= {
       id : Math.floor(Math.random() * 1000),
       value : list
