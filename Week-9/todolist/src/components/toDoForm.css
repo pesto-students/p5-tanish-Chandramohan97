@@ -2,6 +2,23 @@ button{
     margin-left: 10px;
 }
 
+#add-btn{
+    background-color: blue;
+}
+
+#add-btn:hover{
+    background-color: red;
+}
+
+#update-btn:hover{
+    background-color: red;
+}
+
 ul{
     display: inline;
+    margin-top: 10px;
+}
+
+#delete-button{
+    border: none;
 }

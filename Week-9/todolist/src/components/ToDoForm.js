@@ -3,7 +3,7 @@ import './toDoForm.css'
 
 function ToDoForm(){
   const [list,setList] = useState({});
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState([]); // array for toDo tasks.
   
   const [showEdit, setShowEdit] = useState(-1); 
   const [updatedText, setUpdatedText] = useState("");
@@ -34,6 +34,7 @@ function ToDoForm(){
 
   // Editing a text item after creating it
   function editItem(id,newText){
+
     let currentItem = items.filter((items) => items.id === id);
 
     const newItem = {
@@ -58,17 +59,17 @@ function ToDoForm(){
         onChange ={e => setList(e.target.value)
         }
         /> 
-        <button onClick={addItem}> Add </button>
+        <button id='add-btn' onClick={addItem}> Add </button>
     <ul>
       {items.map( (items) => { 
         return(
         <div>
-        <li key ={items.id} onClick={ () => setShowEdit(items.id)}> {items.value} <button className ='delete-button' onClick ={() =>  deleteItem(items.id)} > 🗙 </button></li> 
+        <li key ={items.id} onClick={ () => setShowEdit(items.id)}> {items.value} <button id='delete-button' onClick ={() =>  deleteItem(items.id)} > 🗙 </button></li> 
 
         {showEdit === items.id ? (
           <div>
             <input type="text" value ={updatedText} onChange = {(e) => setUpdatedText(e.target.value)}/>
-            <button onClick={() => editItem(items.id,updatedText)}> Update</button>   
+            <button id='update-btn' onClick={() => editItem(items.id,updatedText)}> Update</button>   
           </div>
         ):null }
         </div>
