@@ -7,8 +7,8 @@ function ToDoForm(){
   
   function addItem(){
     
-    if( !list){
-      alert('Enter the value')   // Incase the user tries to add empty value in the input.
+    if(!list){
+      alert('Enter an item')   // Incase the user tries to add empty value in the input.
       return ;
     }
     const item= {
@@ -19,7 +19,8 @@ function ToDoForm(){
     setItems( items => [...items,item]); // Adding list to the items array.
     // console.log(items); For testing.
 
-    setList("");  // resetting the value of list to 
+  
+    setList("");  // resetting the value of list 
   }
 
   function deleteItem(id){
@@ -29,16 +30,18 @@ function ToDoForm(){
   }
   return (
     // replacing form with <div> container as the console.log would disappear immediately post submit.
-     <div className= "form">                
+     <div id= "form">                
         <input 
         type ="text"
         size = '50' 
-        onChange ={e => setList(e.target.value)}
+        onChange ={e => setList(e.target.value)
+        }
         /> 
         <button onClick={addItem}> Add </button>
     <ul>
-      {items.map(item => {return(
-        <li key ={item.id}> {item.value} <button> ❌ </button> </li>
+      {items.map(items => { 
+        return(
+        <li key ={items.id}> {items.value} <button className ='delete-button' onClick ={() => deleteItem(items.id)} > 🗙 </button></li> 
       )})}
     </ul>
 
