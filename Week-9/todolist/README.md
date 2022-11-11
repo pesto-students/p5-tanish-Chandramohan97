@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Folder Structure & Components 
+
+The app consists of 3 components : 1. App.js 2. Header.js , and 3.ToDoForm.js( the primary file). Along with the mentioned, a CSS stylesheet is also maintained.
+The above files are present in the components folder - which is part of src repository.
