@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.logo{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+li{
+    display: inline-block;
+    padding : 10px;
+}
+
+a{
+    text-decoration: none ;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+}
