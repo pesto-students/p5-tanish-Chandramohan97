@@ -6,27 +6,24 @@ const Footer = () => {
     <footer>
             <h3> Shortly</h3>
             <ul>
-                <li> Features</li>
-                <li> Link Shortening</li>
-                <li> Branded</li>
+                <li> <a href="##">Features</a></li>
+                <li> <a href="##"> Link Shortening </a></li>
+                <li> <a href="##"> Branded </a></li>
             </ul>
 
             <ul>
-                <li> Resources</li>
-                <li> Blog</li>
-                <li> Devlopers</li>
+                <li> <a href="##"> Resources </a></li>
+                <li> <a href="##"> Blog</a></li>
+                <li> <a href="##"> Devlopers </a> </li>
             </ul>
 
             <ul>
-                <li> Company</li>
-                <li> About</li>
-                <li> Our Team</li>
+                <li> <a href="##"> Company </a> </li>
+                <li> <a href='##'> About</a></li>
+                <li> <a href='##'> Our Team</a></li>
             </ul>  
 
-            <ul>
-                <li> Login </li>
-                <li> Sign up</li>    
-            </ul>         
+    
     </footer>
   )
 }
