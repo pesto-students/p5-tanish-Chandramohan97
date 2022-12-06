@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import axios from "axios";
 import './InputContainer.css'
+import {v4 as uuidV4} from "uuid";
+import LinkResult from './LinkResult';
 // import './Components_styling/InputContainer.css'
 
 function InputBar(){
@@ -41,6 +43,7 @@ function InputBar(){
         
     
     return (
+        <>
         <div className='inputBar'>
 
             <input 
@@ -51,7 +54,18 @@ function InputBar(){
              />
 
             <button onClick={Click}>Shorten</button>
-        </div>
+            </div>
+
+            <div className="getshorturlcontainer">
+                {url &&
+                    urlList.map((urlA) => (
+                        <LinkResult input={input} url={urlA} key={uuidV4()} />
+                ))}{" "}
+      </div>
+
+      </>
+                 
+        
     )    
 }
 
