@@ -8,38 +8,38 @@ import './InputContainer.css'
 function InputBar(){
 
     const [input,setInput] = useState("");
-    const [url,setURL] = useState("");
-    const [urlList,setList] = useState([]);
+    const [url,setUrl] = useState("");
+    const [urlList,seturlList] = useState([]);
     const [loading,setLoading] = useState(false);
 
-    let baseUrl = `https://api.shrtco.de/v2/shorten?url=${input}`
+    const baseUrl = `https://api.shrtco.de/v2/shorten?url=${input}`
 
     const Input = (e) =>{
         setInput(e.target.value);
         // console.log(input);
     }
 
-    const fetchURL = async(e) => {
+    const Click = async(e) => {
         
         setLoading(true);
         try{
-            
-            // console.log(baseUrl)
-            await axios(baseUrl).then((response) => {
-                setURL(response.data);
-                // console.log(response.data);
-                setList(urlList.push(response.data));
-                // console.log(response);
-                console.log(urlList);
+            const res = await axios.get(baseUrl).then((response) =>
+             {
+                // console.log(respnse);
+                setUrl(response.data);
+                // console.log(resonse.data)
+                seturlList([...urlList,response.data]);
+                // console.log(urlList);
             })
-            
+      
         }catch(error){
-            console.log(baseUrl);
-            alert('Enter a valid URL')
-            // console.log(error);
+            alert('invalid url')
+            // console.log('hello');
+        }
+            setLoading(true);
         }       
-        setLoading(false);
-    }
+        
+    
     return (
         <div className='inputBar'>
 
@@ -50,7 +50,7 @@ function InputBar(){
             onChange={Input}
              />
 
-            <button onClick={fetchURL}>Shorten</button>
+            <button onClick={Click}>Shorten</button>
         </div>
     )    
 }
