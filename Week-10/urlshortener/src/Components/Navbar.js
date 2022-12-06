@@ -5,7 +5,7 @@ import './Navbar.css'
 function Navbar(){
     return(
         <nav>
-            <h3 class="logo"> Shortly</h3>
+            <h3 className="logo"> Shortly</h3>  
             <ul className='left-items'>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>

@@ -1,0 +1,15 @@
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem 1rem;
+}
+
+.link p{
+    border: 1px solid;
+}
+
+.link button .copied{
+    color: white;
+    background-color: white;
+} 
