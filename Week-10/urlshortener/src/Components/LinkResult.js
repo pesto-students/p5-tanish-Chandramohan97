@@ -5,20 +5,21 @@ const LinkResult = ({input,url}) => {
 
     const [copy,setCopy] = useState(false);
 
+    if(!url) return null;
     const shrtLink = url.result.short_link;
     const ogLink  = url.result.original_link;
 
-    function Copy(){
+    function Copying(){
         navigator.clipboard.writeText(shrtLink);
         navigator.clipboard.readText().then((clipText) => {
-            if(clipText == shrtLink)
+            if(clipText === shrtLink)
                 setCopy(true)});
     } 
     
   return (
     <div className='Link'>
-        <h4> {shrtLink}</h4>
-        <button onClick={()=> Copy} > {copy ? "Copied" : Copy}</button>
+        <h4>{shrtLink}</h4>
+        <button onClick={()=> Copying()} >{copy ? "Copied" : "Copy"}</button>
     </div>
     
   )
