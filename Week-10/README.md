@@ -12,7 +12,7 @@
 
 2. Deployement for Exercise No 2 : https://redux1-beryl.vercel.app/.
 
-3.
+3. Deployement for Exercise No 3 : https://redux2-chandramohan97.vercel.app/
 
 ## Acknowledgement
 
