@@ -1,7 +1,7 @@
 import React from "react";
 import "./stepCounter.css";
 
-const stepCounter = () => {
+const StepCounter = () => {
   return (
     <div className="container">
       <h2> You've walked today!</h2>
@@ -12,4 +12,4 @@ const stepCounter = () => {
   );
 };
 
-export default stepCounter;
+export default StepCounter;
