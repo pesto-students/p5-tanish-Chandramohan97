@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import StepCounter from "./stepCounter";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <StepCounter />
+    </div>
+  );
 }
 
 export default App;

@@ -1,9 +1,10 @@
 import React from "react";
+import "./stepCounter.css";
 
 const stepCounter = () => {
   return (
     <div className="container">
-      <h2> You've walked steps {steps} today!</h2>
+      <h2> You've walked today!</h2>
 
       <button className="stepInc"> Add a step</button>
       <button className="resetStep"> Reset steps</button>
