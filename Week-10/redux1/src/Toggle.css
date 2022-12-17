@@ -1,0 +1,10 @@
+.dark{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.lit{
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
