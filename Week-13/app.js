@@ -19,6 +19,7 @@ app.post("/", (req, res) => {
     response.on("data", (data) => {
       var weatherData = JSON.parse(data);
       temp = weatherData.main.temp - 273;
+      //   res.send('Weather forecast for ' +c)
       res.send("Temp for today for " + city + " is " + Math.ceil(temp) + "°C");
       //   console.log(weatherData.main.temp - 273);
     });
