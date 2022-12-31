@@ -19,7 +19,7 @@ app.post("/", (req, res) => {
   const days = req.body.days;
   const apiKey = "89243cbe4845f1116a376e5092c245ad";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`; // API for one day.
-  const url2 = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&cnt=${days}&appid=${apiKey}`;
+  const url2 = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&cnt=${days}&appid=${apiKey}`; //API for multiple days
 
   if (days == 1) {
     https.get(url, (response) => {
