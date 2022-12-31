@@ -3,6 +3,7 @@ const https = require("https");
 const app = express();
 const path = require("path");
 const bodyParser = require("body-parser");
+const { Console, info } = require("console");
 const port = 3000;
 
 // app.use(express.json());
@@ -38,11 +39,22 @@ app.post("/", (req, res) => {
         var weatherData = JSON.parse(data);
         // temp = weatherData.main.temp - 273;
         //   res.send('Weather forecast for ' +c)
-        res.send(
-          weatherData
-          // "Temp for today for " + city + " is " + Math.ceil(temp) + "°C"
-        );
-        //   console.log(weatherData.main.temp - 273);
+        const list = weatherData.list;
+        const infoList = [];
+        for (const ele of list) {
+          // console.log(city +"'s Weather " )
+          const info =
+            "Weather for " +
+            city +
+            " for " +
+            ele.dt_txt +
+            " is " +
+            Math.ceil(ele.main.temp - 273.15) +
+            "°C";
+          infoList.push(info);
+          // console.log(infoList);
+        }
+        res.send(infoList);
       });
     });
   }
