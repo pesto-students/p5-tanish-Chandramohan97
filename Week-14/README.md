@@ -68,6 +68,6 @@ Response :
 
 http://localhost:8080/assetUpdate
 
-Respone on mongoDB
+Respone on mongoDB( updated amount in blue)
 
-updated Fixed Income(highlighted in blue).png
+![updated Fixed Income(highlighted in blue)](https://user-images.githubusercontent.com/102906185/211185437-a2d2cc92-c4c1-4f61-b5f8-bad390a7c70b.png)
