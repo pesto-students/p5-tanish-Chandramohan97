@@ -11,7 +11,7 @@ signUpRouter.use(bodyParser.urlencoded({ extended: true }));
 
 signUpRouter.get("/", (req, res) => {
   res.sendFile(
-    "C:/Users/DELL/OneDrive/Desktop/webServer/createLoginAPI/public/signUp.html"
+    "C:/Users/DELL/OneDrive/Desktop/p5-tanish-Chandramohan97/Week-16/Wealth-Portfolio-App-master/public/signUp.html"
   );
 });
 

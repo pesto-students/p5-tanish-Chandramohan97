@@ -16,7 +16,7 @@ assetUpdate.use(bodyParser.urlencoded({ extended: true }));
 
 assetUpdate.get("/", (req, res) => {
   res.sendFile(
-    "C:/Users/DELL/OneDrive/Desktop/webServer/createLoginAPI/public/login.html" // Hosting up the website on the server.
+    "C:/Users/DELL/OneDrive/Desktop/p5-tanish-Chandramohan97/Week-16/Wealth-Portfolio-App-master/public/login.html" // Hosting up the website on the server.
   );
 });
 
