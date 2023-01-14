@@ -1,9 +1,16 @@
-# Wealth Portfolio 
+# Assignment No 2 - New Relic with Node.JS app.
 
-# Folder Structure 
+# Screenshots of the analysis : 
 
-The folder structure is as defined below : 
-1. public directory : constitutes of html files( login.html & signUp.html) which loads Login and Sign up pages onto the server. 
-2. router directory : constitues of Node.js files for different functionailty( for signup, login, fetching different assets and updating a field in document). 
-3. index.js - entry point for the app. 
+## Transaction analysis
+
+![image](https://user-images.githubusercontent.com/102906185/212495391-3f37894e-e21c-4de2-8152-1a7d912bc524.png)
+
+## Tracing analysis 
+
+![image](https://user-images.githubusercontent.com/102906185/212495243-70814006-8aab-4c0c-a311-1301e08b526c.png)
+
+## Service Infrastructure diagram i.e. HLD diagram
+
+![image](https://user-images.githubusercontent.com/102906185/212495277-2c88be47-301b-44d2-baad-1de02814be9a.png)
 
