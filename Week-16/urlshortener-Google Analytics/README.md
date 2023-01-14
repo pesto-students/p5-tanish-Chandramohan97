@@ -1,9 +1,9 @@
-# Getting Started with Create React App
+# Assignment No 3
 
-# Assignment : Implementing a url shortener with React.
+# Assignment : Integrating Google Analytics with React
 
-# Web Page : 
+# Screenshots 
 
-![image](https://user-images.githubusercontent.com/102906185/206009803-bd992d32-f2ec-4d5c-b4f0-573c188b3871.png)
+![image](https://user-images.githubusercontent.com/102906185/212495702-bcf52480-5e93-4f18-9617-0809f1251901.png)
 
-![image](https://user-images.githubusercontent.com/102906185/206009957-aed950a5-4f51-4a27-af1d-28f2ddb94a50.png)
+![image](https://user-images.githubusercontent.com/102906185/212495729-15767877-69b3-4f7b-b74c-901648cef63e.png)
