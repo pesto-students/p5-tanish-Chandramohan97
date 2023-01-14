@@ -1,0 +1,27 @@
+body{height: 100%;}
+.inputBar {
+
+    width: 40%;
+    
+    margin : 15% 30% 20px;
+    padding : 35px ;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: aliceblue ;
+    border : outset;
+    /* border-width: 50%; */
+}
+
+input {
+    width: 50%;
+    height : 30px;   
+    text-indent: 1%;
+    margin-left: 20%;
+}
+
+button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: aqua;
+}

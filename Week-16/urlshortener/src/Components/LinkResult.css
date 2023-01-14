@@ -1,0 +1,22 @@
+.Link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem 25rem;
+}
+
+h4{
+    /* border: 1px solid; */
+    padding-left: 10px;
+}
+
+.Link button{
+    /* margin-left: 20px; */
+    /* padding: 10px 30px; */
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+/* .Link button .copied{
+    color: white;
+    background-color: white;
+}  */
