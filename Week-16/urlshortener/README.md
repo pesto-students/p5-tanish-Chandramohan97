@@ -1,9 +1,9 @@
-# Getting Started with Create React App
+# Sentry Alert for one of the React App( Reference App is url shortener from week 10)
 
-# Assignment : Implementing a url shortener with React.
+# Screenshot for Issues created :
 
-# Web Page : 
+![Sentry Screenshot](https://user-images.githubusercontent.com/102906185/212465936-3f2d9bb2-a73d-4223-a030-ef66990f0010.png)
 
-![image](https://user-images.githubusercontent.com/102906185/206009803-bd992d32-f2ec-4d5c-b4f0-573c188b3871.png)
+# Screenshot for capturing alert 
 
-![image](https://user-images.githubusercontent.com/102906185/206009957-aed950a5-4f51-4a27-af1d-28f2ddb94a50.png)
+![Wesbite Crash](https://user-images.githubusercontent.com/102906185/212465945-d552c5a9-1a68-47e6-aa42-2b30cbfa27ce.png)
