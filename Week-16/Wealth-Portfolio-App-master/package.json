@@ -1,0 +1,18 @@
+{
+  "name": "loginapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chandra",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.4",
+    "md5": "^2.3.0",
+    "mongo": "^0.1.0",
+    "nodemailer": "^6.8.0",
+    "popups": "^1.1.3"
+  }
+}
